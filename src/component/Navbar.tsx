@@ -52,8 +52,8 @@ export default function Navbar() {
                       </a>
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/ArtsGallery'}>
-                        Trials
+                      <a href={'/Trial'}>
+                        Try
                       </a>
                     </li>
                   </ul>
@@ -76,6 +76,9 @@ export default function Navbar() {
                 </div>
                 <div className="sm:ml-6 sm:block">
                   <ul className="flex space-x-4">
+                  <li>
+                    <img src={logo} className='w-[40px]' alt="" />
+                    </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
                       <a href={'/'}>
                         Home
@@ -87,8 +90,8 @@ export default function Navbar() {
                       </a>
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/ArtsGallery'}>
-                        Trials
+                      <a href={'/Trial'}>
+                        Try
                       </a>
                     </li>
                   </ul>
