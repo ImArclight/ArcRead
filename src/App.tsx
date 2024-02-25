@@ -6,7 +6,7 @@ import Trial3 from './Trial/Trial3'
 import Trial4 from './Trial/Trial4'
 import About from './pages/About'
 import Try from './pages/Try'
-
+ 
 
 export default function App() { 
   return (
@@ -14,7 +14,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<ArcRead />} />
-          <Route path='/About' element={<About />} />
+          <Route path='/Readme' element={<About />} />
           <Route path='/Trial' element={<Try />}/>
           <Route path='/Trial1' element={<Trial1 />}/>
           <Route path='/Trial2' element={<Trial2 />}/>

@@ -1,6 +1,7 @@
 import Navbar from '../component/Navbar'
 import { useState } from 'react'
 import { ReactReader } from 'react-reader'
+import { NTrial3 } from '../component/EpubImport'
 
 
 export default function Trial3() {
@@ -12,7 +13,7 @@ export default function Trial3() {
       <Navbar />
       <div className='h-[100vh]'>
         <ReactReader 
-        url='/Trial3.epub' 
+        url={NTrial3}
         location={location} 
         locationChanged={(epubcfi: string) => setLocation(epubcfi)} />
       </div>

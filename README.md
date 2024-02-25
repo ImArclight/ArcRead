@@ -1,3 +1,29 @@
+ArcRead Epub reader using react by [React Reader](https://github.com/gerhardsletten/react-reader?tab=readme-ov-file) and [Epub.js v0.3](https://github.com/futurepress/epub.js) - an iframe based epub-reader that can run in browser, cordova and other web-based enviroments.
+
+<img src="src/assets/ex/ex1.png" />
+
+Screenshoot 1
+
+<img src="src/assets/ex/ex2.png" />
+
+Screenshoot 2
+
+<img src="src/assets/ex/ex3.png" />
+
+Screenshoot 3
+
+<img src="src/assets/ex/ex4.png" />
+
+Screenshoot 4
+
+<img src="src/assets/ex/ex5.png" />
+
+Screenshoot 5
+
+## Install
+
+`npm i react-reader`
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +43,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`

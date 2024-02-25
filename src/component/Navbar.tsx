@@ -1,4 +1,3 @@
-import React from 'react'
 import {useEffect, useState} from 'react'
 import logo from '../assets/Logo.png'
 
@@ -29,7 +28,7 @@ export default function Navbar() {
   return (
       <>
         {/* Desktop Navbar */}
-      <nav className={`w-full z-10 transition-colors duration-300 bg-gray-200 sm:sticky top-0 hidden sm:block ${hideNavbar ? '-translate-y-full' : 'translate-y-0'}`}>
+      <nav className={`w-full z-10 transition-colors duration-300 bg-gray-300 sm:sticky top-0 hidden sm:block ${hideNavbar ? '-translate-y-full' : 'translate-y-0'}`}>
         <div className="navbar w-10/12 m-auto rounded-br-2xl rounded-bl-2xl">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
             <div className="relative flex h-16 items-center justify-between">
@@ -43,12 +42,12 @@ export default function Navbar() {
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
                       <a href={'/'}>
-                        Home
+                        ArcRead
                       </a>
                     </li>
-                    <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/About'}>
-                        About
+                    <li className="text-red-600 hover:bg-red-200  rounded-md px-3 py-2 text-sm font-medium">
+                      <a href={'/Readme'}>
+                        Readme
                       </a>
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
@@ -59,15 +58,13 @@ export default function Navbar() {
                   </ul>
                 </div>
               </div>
-              <div className='theme'>
-              </div>
             </div>
           </div> 
         </div>
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className={`sm:relative bg-gray-200 w-full z-10 transition-colors duration-300 bg-transparent sm:sticky top-0 block sm:hidden`}>
+      <nav className={`sm:relative bg-gray-300 w-full z-10 transition-colors duration-300 bg-transparent  top-0 block sm:hidden`}>
         <div className="navbar w-full m-auto rounded-br-2xl rounded-bl-2xl">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
             <div className="relative flex h-16 items-center justify-between">
@@ -81,17 +78,17 @@ export default function Navbar() {
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
                       <a href={'/'}>
-                        Home
+                        ArcRead
                       </a>
                     </li>
-                    <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/About'}>
-                        About
+                    <li className="text-red-600 hover:bg-red-200 rounded-md px-3 py-2 text-sm font-medium">
+                      <a href={'/Readme'}>
+                        Readme
                       </a>
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
                       <a href={'/Trial'}>
-                        Try
+                        Examples
                       </a>
                     </li>
                   </ul>
