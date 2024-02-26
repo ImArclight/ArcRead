@@ -44,7 +44,7 @@ export default function Navbar() {
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
                       <Link to={'/'}>
                         ArcRead
-                      </Link>
+                      </Link> 
                     </li>
                     <li className="text-red-600 hover:bg-red-200  rounded-md px-3 py-2 text-sm font-medium">
                       <Link to={'/About'}>

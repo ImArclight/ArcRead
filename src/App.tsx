@@ -13,7 +13,7 @@ export default function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<ArcRead />} />
+          <Route index element={<ArcRead/>} />
           <Route path='/About' element={<About/>} />
           <Route path='/Try' element={<Try/>}/>
           <Route path='/Trial1' element={<Trial1/>}/>
@@ -21,7 +21,7 @@ export default function App() {
           <Route path='/Trial3' element={<Trial3/>}/>
           <Route path='/Trial4' element={<Trial4/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> 
     </div>
   )
 }
