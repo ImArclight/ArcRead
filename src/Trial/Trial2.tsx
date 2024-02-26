@@ -16,7 +16,7 @@ export default function Trial2() {
         url={NTrial2} 
         location={location} 
         locationChanged={(epubcfi: string) => setLocation(epubcfi)} />
-      </div>
+      </div> 
     </div>
   )
 }

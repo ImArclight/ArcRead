@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react'
 import logo from '../assets/Logo.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -41,19 +42,19 @@ export default function Navbar() {
                     <img src={logo} className='w-[40px]' alt="" />
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/'}>
+                      <Link to={'/'}>
                         ArcRead
-                      </a>
+                      </Link>
                     </li>
                     <li className="text-red-600 hover:bg-red-200  rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/Readme'}>
+                      <Link to={'/About'}>
                         Readme
-                      </a>
+                      </Link>
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/Trial'}>
+                      <Link to={'/Try'}>
                         Try
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -77,19 +78,19 @@ export default function Navbar() {
                     <img src={logo} className='w-[40px]' alt="" />
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/'}>
+                      <Link to={'/'}>
                         ArcRead
-                      </a>
+                      </Link>
                     </li>
                     <li className="text-red-600 hover:bg-red-200 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/Readme'}>
+                      <Link to={'/About'}>
                         Readme
-                      </a>
+                      </Link>
                     </li>
                     <li className=" hover:bg-gray-500 hover:text-red-300 rounded-md px-3 py-2 text-sm font-medium">
-                      <a href={'/Trial'}>
-                        Examples
-                      </a>
+                      <Link to={'/Try'}>
+                        Try
+                      </Link>
                     </li>
                   </ul>
                 </div>

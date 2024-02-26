@@ -14,12 +14,12 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<ArcRead />} />
-          <Route path='/Readme' element={<About />} />
-          <Route path='/Trial' element={<Try />}/>
-          <Route path='/Trial1' element={<Trial1 />}/>
-          <Route path='/Trial2' element={<Trial2 />}/>
-          <Route path='/Trial3' element={<Trial3 />}/>
-          <Route path='/Trial4' element={<Trial4 />}/>
+          <Route path='/About' element={<About/>} />
+          <Route path='/Try' element={<Try/>}/>
+          <Route path='/Trial1' element={<Trial1/>}/>
+          <Route path='/Trial2' element={<Trial2/>}/>
+          <Route path='/Trial3' element={<Trial3/>}/>
+          <Route path='/Trial4' element={<Trial4/>}/>
         </Routes>
       </BrowserRouter>
     </div>
